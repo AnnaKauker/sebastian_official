@@ -1,0 +1,648 @@
+/* 
+- dark green - 1C2A2C
+- footer dark - 24282B
+- font-family: 'Raleway', sans-serif;
+- 300 400 500 900 (normal and italic)
+
+*/
+
+/** {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  Temporary Styles */
+
+/** {
+    padding: 0.5rem;
+    border: 2px solid rgb(200,200,200);
+} 
+
+html, 
+body {
+    border: none;
+} 
+
+h1,h2,h3,h4,h5,h6,p, a {
+    border: 2px solid rgb(179, 84, 84);
+} */
+
+/* End temporary styles */
+
+
+
+
+/*-------------CSS Reset-----------*/
+* {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+  }
+  
+  img {         max-width: 100%; }
+  
+  /* Optional padding to override default gridlex columns */ 
+                [class*=col] { padding: 0; }
+
+/*----------------------Universal Styles and Utility Classes---------------*/
+
+/*-----------Universal-Styles---------------*/
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+/*---------- Minimum Height --------*/
+
+.tall-30 {      min-height: 30vh; }
+.tall-50 {      min-height: 50vh; }
+.tall-60 {      min-height: 60vh; }
+.tall-70 {      min-height: 70vh; }
+.tall-80 {      min-height: 80vh; }
+.tall-90 {      min-height: 90vh; }
+.tall-100 {     min-height: 100vh;}
+
+/*------- Padding Utility Classes-------*/
+
+.padding-sm {   padding:2.5%;}
+.padded     {   padding: 5%;    }
+.padded-lg  {   padding: 10%;   }
+
+
+.padded-05 {    padding: 0.5rem;}
+.padded-1  {    padding: 1rem;  }
+.padded-2  {    padding: 2rem;  }
+.padded-25 {    padding: 2.5rem}    
+.padded-26 {    padding: 2.6rem}    
+
+.padded-t  {    padding-top: 5%; }
+.padded-b  {    padding-bottom: 5%; }
+.padded-l  {    padding-left: 5%; }
+.padded-r  {    padding-right: 5%; }
+
+.padded-tb  {   padding-top: 5%; padding-bottom: 5%; }
+.padded-lr  {   padding-left: 5%; padding-right: 5%; }
+
+.padded-t-1 {   padding-top: 1rem; }
+.padded-b-1 {   padding-bottom: 1rem; }
+.padded-l-1 {   padding-left: 1rem; }
+.padded-r-1 {      padding-right: 1rem; }
+
+.padded-t-2 {   padding-top: 2rem; }
+.padded-b-2 {   padding-bottom: 2rem; }
+.padded-l-2 {   padding-left: 2rem; }
+.padded-r-2 {   padding-right: 2rem; }
+
+.padded-t-0 {   padding-top: 0; }
+.padded-b-0 {   padding-bottom: 0; }
+.padded-l-0 {   padding-left: 0; }
+.padded-r-0 {   padding-right: 0; }
+
+/*------Margin Utility Classes--------------*/
+
+
+.margin {margin: 1%;} 
+
+.margin-t-0 {   margin-top: 0; }
+.margin-b-0 {   margin-bottom: 0; }
+.margin-l-0 {   margin-left: 0; }
+.margin-r-0 {   margin-right: 0; }
+
+.margin-t {     margin-top: 5%; }
+.margin-b {     margin-bottom: 5%; }
+.margin-l {     margin-left: 5%; }
+.margin-l-25 {  margin-left: 2.5%}
+.margin-r {     margin-right: 5%; }
+
+.margin-t-1 {   margin-top: 1rem; }
+.margin-b-1 {   margin-bottom: 1rem; }
+.margin-l-1 {   margin-left: 1rem; }
+.margin-r-1 {   margin-right: 1rem; }
+
+.margin-t-2 {   margin-top: 2rem; }
+.margin-b-2 {   margin-bottom: 2rem; }
+.margin-l-2 {   margin-left: 2rem; }
+.margin-r-2 {   margin-right: 2rem; }
+
+.margin-tb {    margin-top: 5%; margin-bottom: 5%; }
+.margin-lr {    margin-left: 5%; margin-right: 5%; }
+.margin-lr-7 {  margin-left: 7%; margin-right:7%;}
+
+
+/*--------- Typography --------------------*/
+
+.left   {       text-align: left; }
+.center {       text-align: center; }
+.right  {       text-align: right; }
+
+body {
+                font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+                line-height: 1.1;
+                margin-bottom: 1.2rem;
+  }
+
+
+h1,h2,h3,h4,h5,h6 {
+                font-weight: 900;
+                text-transform: uppercase;
+                font-family: 'Lato', sans-serif;
+}
+
+h1 {            font-size: 2rem;}
+h2 {            font-size: 1.5rem;} 
+h3 {            font-weight: 100;}
+
+.light-text {    color: white; } 
+
+.not-bold {     font-weight: 400; }
+
+.subtle { 
+                opacity: 0.8;
+                font-size: 0.9rem;
+                font-style: italic;
+}
+
+p, li {
+                font-weight: 300;   
+                line-height: 1.4;
+                margin-bottom: 0.8rem;
+                font-size: 1.1rem;
+}
+
+ul { margin-left: 1rem; }
+li { padding-left: .5rem;}
+
+h2:last-child, 
+h3:last-child, 
+h4:last-child, 
+h5:last-child, 
+h6:last-child, 
+p:last-child
+li:last-child {
+	            margin-bottom: 0;
+}
+
+.font-dark   {  color:#24282B;}
+
+.small-text  {  font-size: 1.5rem;}
+.medium-text {  font-size: 2rem;}
+.big-text    {  font-size: 4.5rem;}
+
+
+
+.font-weight-light { 
+              font-weight: 200 ;}
+.font-weight-medium { 
+              font-weight: 500;}
+.font-weight-bold { 
+                font-weight: 900;}
+
+.quote-icon {
+                font-size: 2rem;
+                  
+                }
+                
+.testimonial {
+                font-size: 0.9rem;
+                margin-top: 1rem;
+                text-align: center;
+                font-style: italic;
+                }
+
+.services {     font-size: 1rem;
+                font-style: italic}
+                
+.author {
+                text-align: right;
+                margin-bottom: 0;
+                margin-right: 1rem;
+                }
+
+
+
+/*--------Link Styles-------*/
+
+a {             color: inherit; 
+                text-decoration: none;}
+
+nav a {         text-decoration: none; }
+
+a:hover {       color: #4e91ad; }
+
+/*---------Font Awesome Icons-------*/
+
+.fas,
+.fab {
+                font-size: 1.5rem;
+                display: block;
+                margin-bottom: 2rem;
+                color: rgb(29,53,87);
+}
+
+
+
+/*--------------Images-------------------------------------------*/
+
+
+.bg-featured {  background-color: #1C2A2C; }
+.bg-dark     {  background-color: #24282B;
+                color: white; }
+
+.bg-light {     background-color: rgb(248, 249, 250);}
+.bg-white {     background-color: white;}
+.bg-blue {      background-color: rgb(29,53,87);}
+.bg-lilac {     background-color:rgb(114, 103, 139)}
+.bg-grey {      background-color:#b2bec3}
+.bg-yellow {    background-color: lightyellow}
+
+.bg-image {
+                background-color: white; 
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat;
+                background-image: url('images/sebastian_4.jpg')
+}
+
+/* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
+
+.landscape     { padding-bottom: 66%:  }
+.portrait-tall { padding-bottom: 175%; }
+.portrait      { padding-bottom: 125%; }
+.square        { padding-bottom: 100%; }
+
+/* Background Position */
+.bg-pos-t {      background-position: top; }
+.bg-pos-b {      background-position: bottom; }
+.bg-pos-l {      background-position: left; }
+.bg-pos-r {      background-position: right; }
+
+.bg-logo {       background-image: url(/images/Canvas.png);}
+
+.bg-bottles {    background-image: url(/images/hermes-rivera-aK6WGqxyHFw-unsplash\ \(1\).jpg);}
+
+.bg-glas {
+                background-image: url('/images/sebastian_1.jpg');
+                background-position: top;
+}
+.bg-nett {
+                background-image: url('/images/sebastian_6.jpg');
+                background-position: top;
+}
+.bg-rund {
+                background-image: url('/images/sebastian_15.png');
+}
+.bg-anders {
+                background-image: url('/images/the-bunker-8.jpg');
+}
+
+.bg-restaurant {background-image: url('images/restaurant.jpeg')}
+
+.bg-event {     background-image: url('images/event.jpeg');}
+
+.bg-tasting {   background-image: url('images/verkostung.jpeg');
+                padding-bottom: 66%: }
+
+.bg-sommelier { background-image: url(/images/sommelier-union.png);}
+
+.bg-louis    {  background-image: url(/images/louis.png);}
+
+.bg-padded {
+                padding-bottom: 30%;
+}
+
+.social-banner {
+                background-position: top;
+}
+
+.card {         border: 3rem #24282B;
+}
+
+.window {       border-top-left-radius: 3rem;
+                border-top-right-radius: 3rem; }
+
+.teardrop {     border-radius: 20rem;
+                border-bottom-right-radius: 0;}
+
+.rund {         border-radius: 20rem;}
+
+[class*=grid-]>[class*=col-3] {
+  flex-basis: 29%;
+}
+
+
+/*------------------- Slider------------------------------- */
+
+.testimonial-slider-container {
+                /*border: 2px solid lightblue;*/
+                padding:2%;
+                max-width: 900px;
+                margin: auto; /*centers the text evenly*/
+}
+
+  
+.slider-item {
+                padding: 1rem;
+                /*border: 2px solid lightgreen;*/
+                display: none; /* Plus .slider-item:first-child saves the first image to  be shown if js collapses*/
+}
+
+.slider-item:first-child {
+                display: block;
+}
+
+.slider-item:nth-child(odd){
+                /*border: 2px solid teal;*/
+}
+
+slick-next:before {
+                content: '→';
+}
+
+.slick-next::before, .slick-prev::before {
+                font-family: 'Bungee', cursive;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 1;
+                opacity: .75;
+                color: rgb(90,90,90);
+}
+
+
+
+/* -----Puts the arrows inside the parent container------
+
+.slick-prev {
+   	            left: 0.1%%;
+}
+
+.slick-next {
+   	            right: 0.3%;
+}*/
+
+/*-------Dots----*/
+.slick-dots {
+                bottom: -15%;
+                left: 0; /* This align the dots perfectly to the center, do not delete */
+}
+
+.slick-dots li,
+.slick-dots li button {
+            	  width: 12px;
+}
+
+.slick-dots li button::before {
+                font-size: 10px;
+                color: rgb(0, 128, 128);
+}
+
+.slick-dots li.slick-active button::before {
+   	            color: teal;
+}
+
+/*-------Slider Text Styles-----*/
+
+.slider-item-p {
+                text-align: justify;
+}
+
+
+
+
+/*-------------------- Header--------------------------- */
+
+header {
+                padding: 1% 2%;
+                padding-left: 2%;
+                
+               
+  }
+
+  header h2 {
+                text-decoration: none;
+  }
+
+  
+  
+  .emphasis-button {
+                border: 1px solid;
+                margin-left: 0.5rem;
+  }
+
+  header a {
+                padding: 0.5rem;
+  }
+
+  .fixed {      position: fixed;}
+
+  /*--------------Hamburger Menu-----------------*/
+
+  .hamburger-button {
+                cursor: pointer;
+                padding:0 0.7rem;
+                display: inline-block;
+                font-weight:100;
+                font-size: 2rem;
+                line-height: 0.8;
+                right: 1rem;
+                top: 1.7rem;
+                z-index:2;
+  }
+
+  .fixed {position: fixed;}
+  
+  .mobile-menu {
+                background-color: lightblue;
+                padding: 5%;
+                display:none;
+                position:fixed;
+                top: 0;
+                bottom: 0;
+                right:0;
+                left:0;
+  }
+
+  .mobile-menu a {
+                text-decoration: none; 
+                color: inherit; 
+                padding: 5vh 5%;
+                display: block;
+                font-weight: normal;
+                font-size: 1.5rem;
+}
+  
+  .hamburger-button.active {
+                color:white;}
+
+
+/*----------------------Footer----------------------------*/
+
+footer p{
+                margin-bottom: 0.2rem;
+}
+
+footer h2{
+                font-size: 1.5rem;
+                line-height: 1;
+}
+
+.inline a {
+                display:inline-block;
+                padding-right: 1.7rem;
+  }
+
+
+/* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
+
+.show-xs, 
+.show-sm,
+.show-md {
+	            display: none;
+}
+
+/* ------- MD Media Query (64em / 1024px) --------------- */ 
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+
+@media (max-width: 64em) {
+  .show-md {    display: block; }
+  .hide-md {    display: none;  }
+
+  .md-tall-100 {min-height: 100vh;}
+}
+
+/* ------- SM Media Query (48em / 768px) --------------- */ 
+/* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */ 
+
+@media (max-width: 48em) {
+
+    h2 {        font-size: 1.3rem;}
+    p {
+                font-size: 0.9rem;
+}
+  .show-sm {    display: block; }
+  .hide-sm {    display: none;  }
+
+  .a-inline-block {display: inline-block;}
+
+
+	 
+  .sm-text-center { 
+                text-align: center; }
+  .sm-text-left { 
+                text-align: left; }
+  .sm-text-right { 
+                text-align: right; }
+
+
+  .sm-padded {  
+                padding: 5%; }
+  .sm-padded-1 {
+                padding: 1rem; }
+  .sm-padded-05 {
+                padding: 0.5rem; }
+              
+  .sm-padded-t-0 { 
+                padding-top: 0; }
+  .sm-padded-t-05 { 
+                    padding-top: 0.5rem; }
+
+  .sm-padded-b-0 { 
+                padding-bottom: 0; }
+
+  .sm-padded-b-05 { 
+                  padding-bottom: 0.5rem; }
+
+  .sm-padded-tb-05 { 
+                  padding-bottom: 0.5rem; 
+                  padding-top: 0.5rem;}
+  .sm-padded-tb-05 { 
+                  padding-bottom: 1rem; 
+                  padding-top: 1rem;}
+
+  .sm-padded-l-0 { 
+                padding-left: 0; }
+  .sm-padded-r-0 { 
+                padding-right: 0; }
+                
+  .sm-margin-t-0 { 
+                margin-top: 0; }
+  .sm-margin-t-05 {
+                margin-top:0.5rem;}
+
+
+  .sm-margin-b-0 { 
+                margin-bottom: 0; }
+  .sm-margin-b-05 {
+                    margin-bottom:0.5rem;}
+
+
+  .sm-margin-l-0 { 
+                margin-left: 0; }
+  .sm-margin-l-05 { 
+                margin-left: 0.5rem; }
+  .sm-margin-l-r-1 { 
+                margin-left: 1rem;
+                margin-right: 1rem;
+                         }
+
+
+  .sm-margin-r-0 { 
+                margin-right: 0; }
+ 
+              
+
+  .sm-font-size-small {
+                    font-size: 0.9rem;
+                }
+  .sm-font-size-medium {
+                    font-size: 1.3rem;
+  }
+
+  .sm-tall-30 {min-height: 30vh;}
+  .sm-tall-50 {min-height: 50vh;}
+  .sm-tall-100 {min-height: 100vh;}
+
+  .border-none {border: none;}
+
+ 
+
+#slider-container-sm {padding:9%;}
+
+}
+              
+/* ------- XS Media Query (36em / 576px) --------------- */ 
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+              
+@media (max-width: 36em) {
+  .show-xs {     display: block; }
+  .hide-xs {     display: none;  }
+              }
+
+  
+
+/* ------- Optional XXS Media Query (25em / 400px) NOT part of default Gridlex styling--------------- */ 
+/* - Styles added here will apply at devices smaller than 400px, or zoomed in equivalent */ 
+
+@media (max-width: 25em) {
+                [class*=grid] .xxs-stack {
+                flex-basis: 100%;
+                max-width: 100%;
+    }
+  .hide-xxs {display:none;}
+
+  .xxs-img {
+    padding: 40%;
+    margin: 0.19rem;
+}
+}
+
+
